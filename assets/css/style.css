@@ -1,9 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+  margin: 0;
+  padding: 0;
+}
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -12,7 +10,7 @@ body {
 
   /* apply styles to <header> */
 header {
-    padding: 20px  35px;
+    padding: 20px 35px;
     background-color: #39a6b2;
   }
 
@@ -21,9 +19,12 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   
+  header a {
+    color: #fce138;
+  }
+
   header a {
     text-decoration: none;
     color: #fce138;
@@ -42,4 +43,12 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
   }
